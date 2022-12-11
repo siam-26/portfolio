@@ -17,7 +17,7 @@ const Navbar = () => {
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl font-semibold text-white pl-0 md:pl-48 lg:pl-16">Sayed Abu Ahmad</a>
+                    <a className="btn btn-ghost normal-case text-xl font-semibold text-white pl-0 md:pl-48 lg:pl-[110px]">Sayed Abu Ahmad</a>
                 </div>
                 <div className="navbar-end hidden lg:flex pr-16">
                     <ul className="menu menu-horizontal px-1">
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <li><a className='text-white'>Contact</a></li>
                     </ul>
                 </div>
-                <div className='pl-16 md:pl-48 lg:pr-16'>
+                <div className='pl-16 md:pl-60 lg:pr-[125px]'>
                     <a className="btn">My Resume</a>
                 </div>
             </div>
