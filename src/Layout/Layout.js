@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactMe from '../Pages/ContactME/ContactMe';
 import Header from '../Pages/Header/Header';
 import Navbar from '../Pages/Navbar/Navbar';
 import Project from '../Pages/Project/Project';
@@ -12,6 +13,7 @@ const Layout = () => {
             <Header></Header>
             <Skills></Skills>
             <Project></Project>
+            <ContactMe></ContactMe>
         </div>
     );
 };
