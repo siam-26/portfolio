@@ -1,5 +1,8 @@
 import React from 'react';
+
 import headerImg from '../../Assets/headerimg.webp';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 
 const Header = () => {
     return (
@@ -14,6 +17,12 @@ const Header = () => {
                         <p className="py-6 w-full text-justify">To achieve a successful career through dedication, discipline and honesty with an opportunity
                             to work with people in an environment of excellence where I might get best possibilities to practice the
                             knowledge that I have acquired and gain a lot.</p>
+                        <div className='flex mb-5'>
+                            <a href="https://www.linkedin.com/in/sayed-siam"><BsLinkedin className='text-2xl text-primary rounded-full bg-white ' /></a>
+                            <a href="https://github.com/siam-26"><BsGithub className='text-2xl text-primary ml-2 rounded-full bg-white' /></a>
+
+                        </div>
+
                         <button className="btn btn-primary">My Resume</button>
                     </div>
                 </div>
