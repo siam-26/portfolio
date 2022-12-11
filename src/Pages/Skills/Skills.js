@@ -4,7 +4,7 @@ import skillImg from '../../Assets/skills.gif';
 const Skills = () => {
 
     return (
-        <div>
+        <div id='skills'>
             <h1 className='text-4xl text-primary font-bold text-center mt-12 lg:mt-44 mb-10'>My Expertise Area</h1>
             <div className="hero bg-white">
                 <div className="hero-content flex-col-reverse

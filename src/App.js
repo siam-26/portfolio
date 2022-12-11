@@ -1,10 +1,11 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Layout from './Layout/Layout';
+import router from './Routes/Routes';
 
 function App() {
   return (
-    <div>
-      <Layout></Layout>
+    <div className='w-full'>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

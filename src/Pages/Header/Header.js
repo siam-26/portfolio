@@ -6,12 +6,12 @@ import { BsGithub } from 'react-icons/bs';
 
 const Header = () => {
     return (
-        <div>
-            <div className="hero pt-10 bg-white">
+        <div id='about'>
+            <div className="hero pt-10 bg-white ">
                 <div className="hero-content flex-col-reverse md:flex-row-reverse lg:flex-row-reverse">
                     <img src={headerImg} className=" rounded-lg " alt='' />
                     <div className='w-full  lg:w-1/2 mr-0 md:mr-24 lg:mr-24'>
-                        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold w-full">Hi! I'm <i>Sayed Abu Ahmad</i></h1>
+                        <h1 className="mt-10 text-2xl md:text-3xl lg:text-5xl font-bold w-full">Hi! I'm <i>Sayed Abu Ahmad</i></h1>
                         <br />
                         <h1 className="text-2xl font-bold w-full  lg:w-1/2">Front-End Developer</h1>
                         <p className="py-6 w-full text-justify">To achieve a successful career through dedication, discipline and honesty with an opportunity
@@ -23,7 +23,7 @@ const Header = () => {
 
                         </div>
 
-                        <button className="btn btn-primary">My Resume</button>
+                        <a href="https://drive.google.com/file/d/19Zr41-wrgaIvnqi-vG1aCcgbYuKCiHe9/view"><button className="btn btn-primary">My Resume</button></a>
                     </div>
                 </div>
             </div>
