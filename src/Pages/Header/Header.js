@@ -9,7 +9,7 @@ const Header = () => {
         <div>
             <div className="hero pt-10 bg-white">
                 <div className="hero-content flex-col-reverse md:flex-row-reverse lg:flex-row-reverse">
-                    <img src={headerImg} className=" rounded-lg shadow-2xl" alt='' />
+                    <img src={headerImg} className=" rounded-lg " alt='' />
                     <div className='w-full  lg:w-1/2 mr-0 md:mr-24 lg:mr-24'>
                         <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold w-full">Hi! I'm <i>Sayed Abu Ahmad</i></h1>
                         <br />
