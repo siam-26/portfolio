@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Pages/Header/Header';
 import Navbar from '../Pages/Navbar/Navbar';
+import Project from '../Pages/Project/Project';
 import Skills from '../Pages/Skills/Skills';
 
 
@@ -10,6 +11,7 @@ const Layout = () => {
             <Navbar></Navbar>
             <Header></Header>
             <Skills></Skills>
+            <Project></Project>
         </div>
     );
 };
